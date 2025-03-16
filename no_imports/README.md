@@ -10,7 +10,7 @@ This project analyzes Bitcoin's daily price movements, returns, and volatility u
 
 ## Implementation Details
 
-### **Question 1: Basic Analysis**
+### **Part 1: Basic Analysis**
 - Loads the dataset into a list of dictionaries (without Pandas).
 - Filters data for **2019** (or another assigned year based on BUID).
 - Computes:
@@ -18,20 +18,20 @@ This project analyzes Bitcoin's daily price movements, returns, and volatility u
   - **Average closing price**.
   - **Average daily return, max/min return, and standard deviation**.
 
-### **Question 2: Positive vs. Negative Days**
+### **Part 2: Positive vs. Negative Days**
 - Determines the number of **positive (T⁺) and negative (T⁻) return days**.
 - Computes:
   - **Average return, max/min return, and standard deviation** for positive and negative days.
 - Identifies the **three highest and three lowest return days**.
 
-### **Question 3: Price Range Analysis**
+### **Part 3: Price Range Analysis**
 - Computes the **daily range** as **(High - Low)**.
 - Finds:
   - **Max range on a positive day**.
   - **Max range on a negative day**.
   - **Top 3 highest and lowest range days**.
 
-### **Question 4: Volatility Measurement (True Range - TR)**
+### **Part 4: Volatility Measurement (True Range - TR)**
 - Computes **True Range (TR)** for each day:
   \[ TR = max(High - Low, |High - PrevClose|, |Low - PrevClose|) \]
 - Saves results into an **output CSV file (data_2019.csv)**.
@@ -55,6 +55,3 @@ Ensure you have **Python 3.x** installed.
 
 ## Output Files
 - **data_2019.csv** → Contains the filtered 2019 dataset with calculated TR values.
-
-## Conclusion
-This project provides an in-depth look at Bitcoin’s daily price fluctuations and volatility using fundamental Python techniques. The key takeaway is that **handling financial data without Pandas is significantly more challenging**.
