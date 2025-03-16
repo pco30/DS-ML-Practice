@@ -58,12 +58,3 @@ Ensure you have Python installed. You will also need the following libraries:
 pip install numpy pandas yfinance matplotlib scipy datetime
 ```
 
-### Running the Code
-1. Clone this repository or download the script.
-2. Run the script using:
-   ```bash
-   python sleep_or_trade.py
-   ```
-
-## Conclusion
-This project explores the effectiveness of different trading strategies. Through data analysis, we determine whether it is better to trade actively during the day or hold positions overnight.
