@@ -118,10 +118,3 @@ python scripts/feature_importance.py
 
 ---
 
-## 👤 Author
-
-**Oseji Princely**  
-[LinkedIn](https://linkedin.com/in/yourprofile)  
-[Email](mailto:your.email@domain.com)
-
----
